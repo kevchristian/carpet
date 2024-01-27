@@ -1,0 +1,10 @@
+.headerBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(62, 54, 54, 0.1), rgba(62, 54, 54, 0.1)), url('/images/group1.png') no-repeat center center ;
+    background-size: cover;
+    z-index: -1; 
+  }
