@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter, work_sans, enriqueta } from "./components/fonts";
+import {  work_sans } from "./components/fonts";
 
 export const metadata: Metadata = {
   title: "Lung Victory Carpet",
