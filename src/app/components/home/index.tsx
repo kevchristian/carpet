@@ -1,7 +1,6 @@
 import Image from "next/image";
 import BackgroundImage from "./backgroundImage";
-import Carousel from "./carousel";
-import Navigation from "../navigation";
+import Carousels from "./carousel";
 import Footer from "../navigation/footer";
 import Counter from "./dataNumbers";
 
@@ -20,7 +19,7 @@ export default function HomePage() {
         }
       >
       </BackgroundImage>
-      <Carousel />
+      <Carousels />
       <Counter />
       <Footer />
     </>
