@@ -4,7 +4,7 @@ import Carousel from "./carousel";
 import Navigation from "../navigation";
 import Footer from "../navigation/footer";
 import Counter from "./dataNumbers";
-
+import Carousel2 from "./carousel2";
 
 export default function HomePage() {
   return (
