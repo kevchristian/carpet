@@ -4,7 +4,7 @@ import styles from "./header.module.css"
 export default function Header(){
     return(
         <>
-        <Navbar/>
+            <Navbar/>
             <div className={styles.headerBackground}>
             </div>
         </>

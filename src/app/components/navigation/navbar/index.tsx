@@ -7,7 +7,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
     <>
       <div className="w-full h-20 top-0 z-10 bg-gradient-to-b from-[rgba(62,54,54,0.9)] to-transparent">
         <div className="px-4 h-full w-full">
-          <div className="flex flex-wrap items-center p-4 justify-center gap-4">
+          <div className="flex flex-wrap items-center p-4 justify-center gap-8 tracking-widest font-light">
             <Logo />
             <button
               type="button"
