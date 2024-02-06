@@ -4,8 +4,7 @@ import Carousel from "./carousel";
 import Navigation from "../navigation";
 import Footer from "../navigation/footer";
 import Counter from "./dataNumbers";
-import Carousel2 from "./carousel2";
-
+import CompanySlider from "./company";
 export default function HomePage() {
   return (
     <>
@@ -20,6 +19,7 @@ export default function HomePage() {
         }
       >
       </BackgroundImage>
+        <CompanySlider/>
       <Carousel />
       <Counter />
       <Footer />
