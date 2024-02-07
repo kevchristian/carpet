@@ -1,0 +1,31 @@
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+.logosslide {
+    animation: slide 15s infinite linear;
+    display: inline-block;
+    white-space: nowrap;
+    width: calc(128.75px * 18 - 40px);
+    padding: 0;
+  }
+.images{
+  height: 50px;
+  margin-right: 40px;
+  display: inline;
+}
+.imagelast{
+  height: 50px;
+  display: inline;
+}
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  width: 100vw;
+}
